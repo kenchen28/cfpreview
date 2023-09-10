@@ -1,9 +1,6 @@
 # cfpreview
 
-This App Builder example pulls Content Fragments from AEM and displays them in different layouts. 
-
-<img width="512" alt="cfpreview-screenshot" src="https://github.com/markszulc/cfpreview/assets/1145871/6db75824-cd26-43cb-b686-e26b03ba8e21">
-
+This App Builder example pulls Content Fragments from AEM and displays them in different layouts.
 
 ## Setup
 
@@ -28,7 +25,7 @@ local serverless stack and also run your actions locally use the `aio app run --
 
 ### `.env`
 
-You can generate this file using the command `aio app use`. 
+You can generate this file using the command `aio app use`.
 
 ```bash
 # Specify your secrets here and rename to .env
@@ -40,7 +37,7 @@ AIO_runtime_apihost=https://adobeioruntime.net
 ## Used in App.js & Sidebar.js
 AEM_AUTHOR=https://author-pXXXXX-eXXXXXX.adobeaemcloud.com
 ## Used in App.js
-AEM_PersistedQuery=/graphql/execute.json/XXXXXXX/OfferByPath 
+AEM_PersistedQuery=/graphql/execute.json/XXXXXXX/OfferByPath
 #Used in Sidebar.js
 AEM_CF_Editor_Path=https://experience.adobe.com/?repo=author-pXXXXX-eXXXXXX.adobeaemcloud.com#/@XXXXXX/aem/cf/editor/editor
 AEM_CF_Admin_Path=https://experience.adobe.com/?repo=author-pXXXXX-eXXXXXX.adobeaemcloud.com#/@XXXXXX/aem/cf/admin/
